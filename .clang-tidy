@@ -1,0 +1,11 @@
+{
+    "Checks": 
+		"-*, bugprone-*, cert-dcl21-cpp, cert-err34-c, cert-flp30-c, cert-mem57-cpp, cert-oop57-cpp, cert-oop58-cpp, clang-analyzer-core.uninitialized.CapturedBlockVariable, cppcoreguidelines-*, -cppcoreguidelines-macro-usage, -cppcoreguidelines-owning-memory, -cppcoreguidelines-pro-type-const-cast, -cppcoreguidelines-no-malloc, -cppcoreguidelines-init-variables, -cppcoreguidelines-pro-type-reinterpret-cast, -cppcoreguidelines-pro-type-vararg, fuchsia-trailing-return, google-global-names-in-headers, google-explicit-constructor, llvm-namespace-comment, llvm-twine-local, misc-definitions-in-headers, misc-misplaced-const, misc-non-private-member-variables-in-classes, misc-redundant-expression, modernize-use-bool-literals, performance-no-automatic-move, performance-unnecessary-value-param, readability-const-return-type, readability-function-cognitive-complexity, readability-identifier-naming, readability-magic-numbers, readability-simplify-boolean-expr, readability-static-accessed-through-instance, clang-analyzer-core.*, clang-analyzer-deadcode.DeadStores, google-readability-todo"
+    "CheckOptions": [
+        {
+            "key": "readability-identifier-naming.*",
+            "value": "CamelCase"
+        }
+    ],
+    "FormatStyle": "file"
+}
